@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "email": "george.bluth@reqres.in",
+        "first_name": "George",
+        "last_name": "Bluth",
+        "apiUrl": "https://jsonplaceholder.typicode.com/users/1"
+    },
+    {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "apiUrl": "https://jsonplaceholder.typicode.com/users/2"
+    },
+    {
+        "id": 3,
+        "email": "emma.wong@reqres.in",
+        "first_name": "Emma",
+        "last_name": "Wong",
+        "apiUrl": "https://jsonplaceholder.typicode.com/users/3"
+    },
+    {
+        "id": 4,
+        "email": "eve.holt@reqres.in",
+        "first_name": "Eve",
+        "last_name": "Holt",
+        "apiUrl": "https://jsonplaceholder.typicode.com/users/4"
+    },
+    {
+        "id": 5,
+        "email": "charles.morris@reqres.in",
+        "first_name": "Charles",
+        "last_name": "Morris",
+        "apiUrl": "https://jsonplaceholder.typicode.com/users/5"
+    },
+    {
+        "id": 6,
+        "email": "tracey.ramos@reqres.in",
+        "first_name": "Tracey",
+        "last_name": "Ramos",
+        "apiUrl": "https://jsonplaceholder.typicode.com/users/6"
+    },
+    {
+        "id": 7,
+        "email": "tracey.ramos@reqres.in",
+        "first_name": "Tracey",
+        "last_name": "Ramos",
+        "apiUrl": "https://jsonplaceholder.typicode.com/users/7"
+    },
+    {
+        "id": 8,
+        "email": "tracey.ramos@reqres.in",
+        "first_name": "Tracey",
+        "last_name": "Ramos",
+        "apiUrl": "https://jsonplaceholder.typicode.com/users/8"
+    },
+    {
+        "id": 9,
+        "email": "tracey.ramos@reqres.in",
+        "first_name": "Tracey",
+        "last_name": "Ramos",
+        "apiUrl": "https://jsonplaceholder.typicode.com/users/9"
+    },
+    {
+        "id": 10,
+        "email": "tracey.ramos@reqres.in",
+        "first_name": "Tracey",
+        "last_name": "Ramos",
+        "apiUrl": "https://jsonplaceholder.typicode.com/users/10"
+    }
+]
