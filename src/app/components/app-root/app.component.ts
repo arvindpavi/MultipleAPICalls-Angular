@@ -28,7 +28,7 @@ export class AppComponent {
 
   private fetchUserDetails(counter: number, data: Array<CoreApi>) {
     this.fetchAPIData(data[counter].id, data[counter].apiUrl).then(response => {
-      data[response.id - 1].apiResponse = response;
+      data[response.cardId - 1].apiResponse = response;
       this.apiCounter = this.apiCounter + 1;
       if (this.apiCounter < data.length) {
         this.fetchUserDetails(this.apiCounter, data);
@@ -37,8 +37,9 @@ export class AppComponent {
   }
 
   private async fetchAPIData(id: number, url: string) {
-    return await this.http.get<any>(url).pipe(
+    return await this.http.get<CoreApi>(url).pipe(
       map((response) => {
+        response.cardId = id;
         return response;
       })).toPromise()
   }

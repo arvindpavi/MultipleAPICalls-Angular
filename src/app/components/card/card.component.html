@@ -1,5 +1,10 @@
-<div>
-    <span [innerHtml]="cardDetails.id"></span>
-    <span [innerHtml]="cardDetails.first_name"></span>
-    <span [innerHtml]="cardDetails.apiResponse | json"></span>
+<div class="row">
+    <div class="col-12">
+        <span [innerHtml]="cardDetails.first_name"></span>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <span [innerHtml]="cardDetails.apiResponse | json"></span>
+    </div>
 </div>
